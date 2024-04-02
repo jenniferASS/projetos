@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Férias</title>
+</head>
+<body>
+    <div class="calculator-container">
+        <h1>Calculadora de Férias</h1>
+        <form id="vacation-form">
+            <label for="salary">Salário Bruto:</label>
+            <input type="number" id="salary" required>
+
+            <label for="extra-hour">Valor Médio da Hora Extra:</label>
+            <input type="number" id="extra-hour">
+
+            <label for="dependents">Número de Dependentes:</label>
+            <input type="number" id="dependents">
+
+            <label for="vacation-days">Dias de Férias Requisitados:</label>
+            <input type="number" id="vacation-days" required>
+
+            <label for="abono">Abono Pecuniário de 1/3:</label>
+            <input type="checkbox" id="abono">
+
+            <label for="advance-13th">Adiantar 1ª Parcela do 13º Salário:</label>
+            <input type="checkbox" id="advance-13th">
+
+            <button type="button" onclick="calculateVacation()">Calcular</button>
+
+            <div id="result"></div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

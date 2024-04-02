@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://th.bing.com/th/id/R.9f04d52d7f502529d27ba1b40a8507c3?rik=mPMA%2fIINyX3UJA&riu=http%3a%2f%2fcdn11.overnature.net%2f1920%2f143-paisagem-foto-hd-inebriante-sol-amanhecer.jpg&ehk=EMV51DcRAu1Vl4YUj91ddFjRzGe9GI9uKR%2fILFeE4xs%3d&risl=&pid=ImgRaw&r=0");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator-container {
+    background:fixed #101022;
+    opacity: 0.8 ;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 4px;
+    color: #fff;
+    padding:10px
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45b24a;
+}
+
+h1{
+    color: #fff;
+}
